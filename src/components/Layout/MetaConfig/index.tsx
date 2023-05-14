@@ -26,8 +26,8 @@ const MetaConfig: React.FC<MetaConfigProps> = ({ ...props }) => {
       <meta name="description" content={meta.description} />
       {/* og */}
       <meta property="og:type" content={meta.type} />
-      <meta property="og:title" content={meta.title} />
-      <meta property="og:description" content={meta.description} />
+      <meta property="og:title" content="saehwa-log" />
+      <meta property="og:description" content="Welcom to saehwa-log" />
       <meta property="og:url" content={meta.url} />
       {CONFIG.lang && <meta property="og:locale" content={CONFIG.lang} />}
       {meta.image && <meta property="og:image" content={meta.image} />}
