@@ -2,13 +2,13 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "saehwa-log🌿",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "나만의 속도",
+    bio: "중꺾마",
     email: "jangsaehwa95@gmail.com",
     linkedin: "",
     github: "saehwa95",
-    instagram: "",
+    instagram: "iam_sahwa_",
   },
   projects: [
     {
@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "saehwa-log🌿",
-    description: "나만의 속도",
+    description: "welcome to my blog!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
@@ -39,7 +39,7 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
@@ -53,7 +53,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "saehwa/sehwa-log",
+      repo: "saehwa/saehwa-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
