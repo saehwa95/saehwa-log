@@ -13,7 +13,7 @@ const Header: React.FC<Props> = ({ fullWidth }) => {
         className={`m-auto px-4 h-12 w-full max-w-6xl flex justify-between items-center ${
           fullWidth && "md:px-24"
         }`}
-      >
+      > 
         <Logo />
         <div className={`flex gap-3 items-center `}>
           <ThemeToggle />
